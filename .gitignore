@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.pnp.js
+.yarn/install-state.gz
+
+
+.env*.local
+
+# ide
+.idea
+.vscode
