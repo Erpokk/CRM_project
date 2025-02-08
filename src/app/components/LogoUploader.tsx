@@ -1,4 +1,5 @@
 'use client';
+
 import React from 'react';
 import Image from "next/image";
 
@@ -21,7 +22,7 @@ function LogoUploader({label, placeholder,id, ...rest}: LogoUploaderProps)  {
                     className="mb-1"
                     width={48}
                     height={48}
-                    src="/upload.svg"
+                    src="/icons/upload.svg"
                     alt="upload"
                 />
                 {placeholder && (
