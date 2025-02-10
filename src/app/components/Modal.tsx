@@ -6,10 +6,12 @@ import {Dialog, DialogPanel, Transition, TransitionChild} from "@headlessui/reac
 export interface ModalProps {
     children?: React.ReactNode;
     show: boolean;
-    onClose: () => void;
+    onClose?: () => void;
+    onCloseAction?: () => void;
 }
 
 function Modal({ show, children, onClose }: ModalProps) {
+    if(!onClose) return;
     return (
         <Transition as={Fragment} show={show}>
             <Dialog

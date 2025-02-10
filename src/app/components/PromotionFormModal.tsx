@@ -11,6 +11,7 @@ export default function PromotionFormModal({
                                                onClose,
                                                ...rest
                                            }: PromotionFormModal) {
+    if(!onClose) return;
     return (
         <Modal {...rest} onClose={onClose}>
             <PromotionForm companyId={companyId} onSubmit={() => onClose()} />
