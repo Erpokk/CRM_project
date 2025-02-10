@@ -5,8 +5,10 @@ import SummaryTableHeader from '@/app/components/SummaryTableHeader';
 import SummaryTableCell from '@/app/components/SummaryTableCell';
 import DashboardCard from '@/app/components/DashboardCard';
 
-async function Page() {
+
+export default async function Page() {
     const data = await getSummarySales();
+
     return (
         <DashboardCard label="Sales details">
             <SummaryTable
@@ -29,5 +31,3 @@ async function Page() {
         </DashboardCard>
     );
 }
-
-export default Page;
