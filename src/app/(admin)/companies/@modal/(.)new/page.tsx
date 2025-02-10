@@ -7,5 +7,5 @@ import CompanyFormModal from '@/app/components/CompanyFormModal';
 
 export default function Page() {
     const router = useRouter();
-    return <CompanyFormModal show={true} onClose={() => router.back()} />;
+    return <CompanyFormModal show={true} onCloseAction={() => router.back()} />;
 }
