@@ -1,6 +1,6 @@
 import React from 'react';
 import { getCategories, getCompanies } from '@/lib/api';
-import getCountById from '@/lib/utlis/getCountById';
+import getCountById from '@/lib/utils/getCountById';
 import StatCard, { StatCardType } from '@/app/components/StatCard';
 import DashboardCard from '@/app/components/DashboardCard';
 

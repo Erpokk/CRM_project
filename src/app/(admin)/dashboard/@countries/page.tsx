@@ -3,7 +3,7 @@ import Image from 'next/image';
 import clsx from 'clsx';
 import { getCompanies, getCountries } from '@/lib/api';
 import DashboardCard from '@/app/components/DashboardCard';
-import getCountById from '@/lib/utlis/getCountById';
+import getCountById from '@/lib/utils/getCountById';
 
 
 export default async function Page() {

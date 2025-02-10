@@ -2,7 +2,7 @@ import React from 'react';
 import { notFound } from 'next/navigation';
 import { dehydrate, HydrationBoundary } from '@tanstack/react-query';
 import { Company, getCompany, getPromotions } from '@/lib/api';
-import getQueryClient from '@/lib/utlis/getQueryClient';
+import getQueryClient from '@/lib/utils/getQueryClient';
 import CompanyInfo from '@/app/components/CompanyInfo';
 import CompanyPromotions from '@/app/components/CompanyPromotions';
 

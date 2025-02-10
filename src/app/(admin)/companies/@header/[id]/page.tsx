@@ -1,6 +1,6 @@
 import React from 'react';
 import { Company, getCompany } from '@/lib/api';
-import getQueryClient from '@/lib/utlis/getQueryClient';
+import getQueryClient from '@/lib/utils/getQueryClient';
 import Header from '@/app/components/Header';
 
 export interface PageProps {
